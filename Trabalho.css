@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(255, 255, 255);
+}
+.retlar{
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: chocolate;
+    width: 17rem;
+    height: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bola{
+    background-color: rgb(191, 38, 38);
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    position: relative;
+    bottom: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    object-fit: contain;
+    height: 11.5rem;
+    border-radius: 50%;
+}
+.t2{
+    position: relative;
+    bottom: 10%;
+    margin: 7%;
+    color: rgba(200, 193, 193, 0.508);
+}
+
+.tela{
+    background: rgb(255, 255, 255);
+    flex-flow: column;
+    padding-left: 20rem;
+    padding-top: 14rem;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+.tela h1{
+    color: black;
+    font-size: 5rem;
+}
+
+.tela h3{
+    font-size: 1.4rem;
+}
+
+.tela p{
+    color: grey;
+    font-size: 0.8rem;
+    margin-top: 2.5rem;
+}
+
+span{
+    color: red;
+}
+
+#t{
+    color: aliceblue;
+}
